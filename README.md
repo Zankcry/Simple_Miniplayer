@@ -1,4 +1,4 @@
-# Simple Player (Simple Miniplayer)
+# Simple Miniplayer
 
 > A "Cinematic Terminal" Picture-in-Picture experience for web videos, Reels, and Shorts.
 
