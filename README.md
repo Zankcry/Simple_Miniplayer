@@ -2,21 +2,21 @@
 
 > A "Cinematic Terminal" Picture-in-Picture experience for web videos, Reels, and Shorts.
 
-<img width="800" height="600" alt="Simple Player Interface Mockup" src="https://github.com/user-attachments/assets/39152ecd-8c5a-4b17-8750-7ac8e34832b2" />
+<img width="800" height="600" alt="Simple Miniplayer Interface Mockup" src="https://github.com/user-attachments/assets/39152ecd-8c5a-4b17-8750-7ac8e34832b2" />
 
 ---
 
 ## Overview
 
-**Simple Player** is a browser extension designed to provide a high-performance Picture-in-Picture (PiP) experience. Utilizing the Document Picture-in-Picture API, it moves videos out of their webpage constraints and into a floating cinematic window. 
+**Simple Miniplayer** is a browser extension designed to provide a high-performance Picture-in-Picture (PiP) experience. Utilizing the Document Picture-in-Picture API, it moves videos out of their webpage constraints and into a floating cinematic window. 
 
-Whether you are watching YouTube, scrolling through Instagram Reels, browsing TikTok, or navigating nested frames and Shadow DOMs, Simple Player manages playback using a priority-ordered multi-tier rendering engine.
+Whether you are watching YouTube, scrolling through Instagram Reels, browsing TikTok, or navigating nested frames and Shadow DOMs, Simple Miniplayer manages playback using a priority-ordered multi-tier rendering engine.
 
 ---
 
 ## Key Features
 
-Traditional Picture-in-Picture tools are restricted by same-origin policies, iframe isolation, and customized site interfaces. Simple Player works around these limitations with a specialized architecture:
+Traditional Picture-in-Picture tools are restricted by same-origin policies, iframe isolation, and customized site interfaces. Simple Miniplayer works around these limitations with a specialized architecture:
 
 *   **Tiered Rendering (The Capture Chain)**: 
     *   *Tier 1 (Direct PiP)*: Moves the actual `<video>` element into the Document PiP window for zero-latency native playback.
